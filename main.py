@@ -1,6 +1,5 @@
 from time import sleep
 from deposit import printy, roll
-'''from deposit import printy'''
 
 printy('Bem vindo aventureiro!')
 sleep(1)
