@@ -16,24 +16,9 @@ def printy(text, speed = 0.01, n = True):
         return ''
 
 def roll(number):
-    from time import sleep
     from random import randint
-    import os
 
-    n = randint(0, number)
-    time = 0.1
-    for c in range(20):
-        sleep(time)
-        os.system('cls')
-        if c == 10:
-            time = 0.3
-        if c == 15:
-            time = 0.5
-        print(randint(0, number))
-        
-        
-    n = f'\033[0;32;40m{n}\033[m'
-    os.system('cls')
+    n = randint(1, number)
     return n
 
 
