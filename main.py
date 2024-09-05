@@ -31,6 +31,6 @@ except FileNotFoundError:
                 salvar(player)
                 break
 
-
+#abandon
 
 
